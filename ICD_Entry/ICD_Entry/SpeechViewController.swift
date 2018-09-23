@@ -12,13 +12,14 @@ import Foundation
 class SpeechViewController: UIViewController {
     
     var StringEncoded = ""
+    var icdObj: [String]!
 
     @IBOutlet weak var textBox: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        textBox.delegate = self
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,15 +30,15 @@ class SpeechViewController: UIViewController {
 
     @IBAction func PostMessage(_ sender: Any) {
         
-    var StringEncoded = textBox.text
+        let StringEncoded = textBox.text
         
         let utf8StringEncoded =  StringEncoded?.data(using: String.Encoding.utf8)
         
-        let base64Encoded = utf8StringEncoded?.base64EncodedData()
+        guard let base64Encoded = utf8StringEncoded?.base64EncodedData() else {
+            return
+        }
         
         print("Encoded:  \(base64Encoded)")
-        
-        
         
      do {
         
@@ -48,8 +49,8 @@ class SpeechViewController: UIViewController {
         ]
         let parameters = [
             "body": "\(base64Encoded)",
-            "description": "hi this is a test",
-            "icd": "gkjghkuhkh"
+            "description": "\(icdObj[1])",
+            "icd": "\(icdObj[0])"
             ] as [String : Any]
         
         let postData = try JSONSerialization.data(withJSONObject: parameters, options: [])
@@ -64,10 +65,10 @@ class SpeechViewController: UIViewController {
         let session = URLSession.shared
         let dataTask = session.dataTask(with: request as URLRequest, completionHandler: { (data, response, error) -> Void in
             if (error != nil) {
-                print(error)
+                print(error!)
             } else {
                 let httpResponse = response as? HTTPURLResponse
-                print(httpResponse)
+                print(httpResponse!)
             }
         })
         
@@ -88,6 +89,14 @@ class SpeechViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+}
 
-    
+extension SpeechViewController: UITextViewDelegate {
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        if text == "\n" {
+            textView.resignFirstResponder()
+            return false
+        }
+        return true
+    }
 }

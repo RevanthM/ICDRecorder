@@ -76,6 +76,9 @@ class ViewController: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "speechSegue" {
+            if let speechVC = segue.destination as? SpeechViewController {
+                speechVC.icdObj = sender as! [String]
+            }
             // Setup new view controller
         }
     }
