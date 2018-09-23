@@ -14,7 +14,5 @@ class ChronicCell: UITableViewCell {
     
     @IBOutlet var descriptionLabel: UILabel!
     
-    
-    
-    
+    @IBOutlet var recordButton: UIButton!
 }

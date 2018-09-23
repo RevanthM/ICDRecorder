@@ -8,88 +8,13 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController {
 
     @IBOutlet var newTable: UITableView!
     
     var networkClass = NetworkingData()
     
-    
-    
-    @IBAction func segueButton(_ sender: UIButton) {
-        
-        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-        let destination = storyboard.instantiateViewController(withIdentifier: "SpeechViewController") as! SpeechViewController
-        navigationController?.pushViewController(destination, animated: true)
-        
-//        
-//        performSegue(withIdentifier: "speechSegue", sender: self)
-        
-        
-    }
-    
-    
-    var ICDList = ["I51.9", "E11.65", "N18.9"]
-    
-    var descriptionList = ["Heart_Diesease", "Diabetes", "kidney failure"]
-    
-    var outputList = ["","",""]
-    
-    
-    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
-    {
-        
-        
-        
-        return(ICDList.count)
-        
-    }
-    
-     public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
-    
-     {
-        
-        let cell = newTable.dequeueReusableCell(withIdentifier: "cell") as! ChronicCell
-      
-        cell.icdLabel.text = ICDList[indexPath.row]
-        cell.descriptionLabel.text = descriptionList[indexPath.row]
-        
-        return(cell)
-        
-    }
-    
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        
-        
-       
-  
-//
-//        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
-//        let destination = storyboard.instantiateViewController(withIdentifier: "SpeechViewController") as! SpeechViewController
-//        navigationController?.pushViewController(destination, animated: true)
-//
-//
-//        performSegue(withIdentifier: "speechSegue", sender: self)
-        
-     
-        }
-    
-    
-    
-
-//    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-//        if segue.identifier == "speechSegue" {
-//            // Setup new view controller
-//        }
-//    }
-    
-    let tasks=["Short walk",
-               "Audiometry",
-               "Finger tapping",
-               "Reaction time",
-               "Spatial span memory"
-    ]
-    
+    var icdList = [[String]]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -98,16 +23,85 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         newTable.dataSource = self
         newTable.delegate = self
         
-      
-        
+        var data = readDataFromCSV(fileName: "icd10_file", fileType: "csv")
+        data = cleanRows(file: data!)
+        icdList = csv(data: data!)
+    }
+    
+    func readDataFromCSV(fileName:String, fileType: String)-> String!{
+        guard let filepath = Bundle.main.path(forResource: fileName, ofType: fileType)
+            else {
+                return nil
+        }
+        do {
+            var contents = try String(contentsOfFile: filepath, encoding: .utf8)
+            contents = cleanRows(file: contents)
+            return contents
+        } catch {
+            print("File Read Error for file \(filepath)")
+            return nil
+        }
+    }
+    
+    
+    func cleanRows(file:String)->String{
+        var cleanFile = file
+        cleanFile = cleanFile.replacingOccurrences(of: "\r", with: "\n")
+        cleanFile = cleanFile.replacingOccurrences(of: "\n\n", with: "\n")
+        return cleanFile
+    }
+    
+    func csv(data: String) -> [[String]] {
+        var result: [[String]] = []
+        let rows = data.components(separatedBy: "\n")
+        for row in rows {
+            var columns = row.components(separatedBy: ",")
+            if columns.count > 2 {
+                var array = [String]()
+                array.append(columns[1])
+                columns.remove(at: 0)
+                columns.remove(at: 0)
+                let description = columns.joined(separator: ",")
+                array.append(description.replacingOccurrences(of: "\"", with: ""))
+                result.append(array)
+            }
+        }
+        return result
+    }
+    
+    @IBAction func segueButton(_ sender: UIButton) {
+        let icdObj = icdList[sender.tag]
+        performSegue(withIdentifier: "speechSegue", sender: icdObj)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "speechSegue" {
+            // Setup new view controller
+        }
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    
+}
 
-
+extension ViewController: UITableViewDelegate, UITableViewDataSource{
+    public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return(icdList.count)
+    }
+    
+    public func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        let cell = newTable.dequeueReusableCell(withIdentifier: "cell") as! ChronicCell
+        let icdObj = icdList[indexPath.row]
+        cell.icdLabel.text = icdObj[0]
+        cell.descriptionLabel.text = icdObj[1]
+        cell.recordButton.tag = indexPath.row
+        return(cell)
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableViewAutomaticDimension
+    }
 }

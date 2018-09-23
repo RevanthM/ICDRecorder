@@ -1,0 +1,629 @@
+1068,401.9,HTN(hypertension)
+1068,V17.49,HTN (hypertension)
+1068,402,"Malignant HTN with heart disease, w/o CHF, w/o chronic kidney disease -"
+1068,404,"Malignant HTN with heart disease, w/o CHF, with chronic kidney disease"
+1068,401.9,Mild HTN
+1068,416.8,Pulmonary HTN
+1068,401.1,Benign essential HTN
+1068,796.2,Borderline systolic HTN
+1068,V12.59,HTN (hypertension)
+1068,416,Primary pulmonary HTN
+1068,459.33,Idiopathic chronic venous HTN of both legs with ulcer and inflammation
+1068,796.2,Blood pressure elevated without history of HTN
+1068,401,Accelerated hypertension
+1068,402,Accelerated hypertension with heart disease and without congestive heart failure
+1068,401.9,Asymptomatic hypertension
+1068,401.1,Benign diastolic hypertension
+1068,428,"Congestive heart failure, unspecified"
+1068,585.4,"Chronic kidney disease, stage IV (severe)"
+1068,404.11,"Benign hypertensive heart and kidney disease with heart failure and with chronic kidney disease stage I through stage IV, or unspecified"
+1068,585.5,"Chronic kidney disease, stage V"
+1068,404.13,Benign hypertensive heart and kidney disease with heart failure and chronic kidney disease stage V or end stage renal disease
+1068,585.6,End-stage renal disease
+1068,585.6,Unspecified hypertensive heart and kidney disease with heart failure and chronic kidney disease stage V or end stage renal disease
+1068,404.93,Unspecified hypertensive heart and kidney disease with heart failure and chronic kidney disease stage V or end stage renal disease -
+1068,404.12,"Benign hypertensive heart and kidney disease with chronic kidney disease, stage 5 chronic kidney disease or end stage renal disease, without heart failure"
+1113,280.8,Iron deficiency anemia due to sideropenic dysphagia
+1113,D63.0,Anemia assoc w/adenocarcinoma of unknown primary txd w/erythropoietin
+1113,D63.0,Anemia in neoplastic disease
+1113,C12,Malignant neoplasm of pyriform sinus
+1113,D63.0,Anemia assoc w/extra-ovarian papillary cancer txd w/erythropoietin
+1113,C49.9,"Malignant neoplasm of connective and soft tissue, unspecified"
+1113,C64.9,"Malignant neoplasm of unspecified kidney, except renal pelvis"
+1113,C34.90,Malignant neoplasm of unspecified part of unspecified bronchus or lung
+1113,C91.00,Acute lymphoblastic leukemia not having achieved remission
+1113,D63.0,Anemia assoc with acute myelogenous leukemia txd with erythropoietin
+1113,D63.0,Anemia assoc with ampulla of Vater cancer treated with erythropoietin
+1113, C91.10,Chronic lymphocytic leukemia of B-cell type not having achieved remission
+1113,D63.0,Anemia assoc with diffuse large cell lymphoma txd with erythropoietin
+1113,D63.0,Anemia assoc with gastroesophageal cancer treated with erythropoietin
+1113,C85.80,"Other specified types of non-Hodgkin lymphoma, unspecified site"
+1113,C83.10,"Mantle cell lymphoma, unspecified site"
+1113,C82.80,"Other types of follicular lymphoma, unspecified site"
+1113,D46.9,"Myelodysplastic syndrome, unspecified"
+1113,D63.0,Anemia assoc with non-Hodgkins lymphoma treated with erythropoietin
+1113,C83.00,"Small cell B-cell lymphoma, unspecified site"
+1113,D63.0,Anemia assoc with squamous cell carcinoma treated with erythropoietin
+1113,D64.81,Anemia due to antineoplastic chemotherapy
+1119,E78.5,"Hyperlipidemia, unspecified hyperlipidemia type"
+1119,E11.69,Type 2 diabetes mellitus with other specified complication
+1119,E78.4,Hyperlipidemia due to dietary fat intake
+1119,E10.69,Type 1 diabetes mellitus with other specified complication
+1119,E78.5,Hyperlipidemia LDL goal <100
+1119,E78.5,Hyperlipidemia LDL goal <130
+1119,E78.5,Hyperlipidemia LDL goal <70
+1119,E78.01,Hyperlipidemia type II
+1119,E78.2,Hyperlipidemia type III
+1119,E78.1,Hyperlipidemia type IV
+1119,E78.5,"Hyperlipidemia, mild"
+1119,E78.2,"Hyperlipidemia, mixed"
+1119,E78.5,Borderline hyperlipidemia
+1119,E78.2,Combined hyperlipidemia
+1119,E78.2,Mixed hyperlipidemia
+1119,E78.1,Endogenous hyperlipidemia
+1119,E78.4,Exogenous hyperlipidemia
+1119,Z83.49,hyperlipidemia
+1119,T45.1X5A,"Adverse effect of antineoplastic and immunosuppressive drugs, initial encounter"
+1119,E78.5,Multiple-type hyperlipidemia
+1119,Z83.2,Family history of mixed hyperlipidemia
+1119,E13.69,Other specified diabetes mellitus with other specified complication
+1066,J45.909,"Asthma, unspecified asthma severity, unspecified whether complicated, unspecified whether persistent"
+1066,J45.901,"Exacerbation of asthma, unspecified asthma severity, unspecified whether persistent"
+1066,J45.901,Asthma attacks lasting more than 24 hours
+1066,Z79.51,Long term current use of inhaled steroid
+1066,J45.909,"Unspecified asthma, uncomplicated"
+1066,J45.909,"Unspecified asthma, uncomplicated"
+1066,Z79.52,Long term current use of systemic steroids
+1066,J45.901,Unspecified asthma with (acute) exacerbation 
+1066,J45.902,Unspecified asthma with status asthmaticus
+1066,J45.909,Asthma due to environmental allergies
+1066,J68.3,Asthma due to inhalation of fumes
+1066,J45.909,Asthma due to internal immunological process
+1066,J45.909,Asthma due to seasonal allergies
+1066,J45.901,Asthma not dependent on systemic steroids with acute exacerbation
+1066,J45.902,Asthma not dependent on systemic steroids with status asthmaticus
+1066,J45.909,Asthma not dependent on systemic steroids without complication
+1066,J06.9,"Acute upper respiratory infection, unspecified"
+1066,J45.901,"Asthma with acute exacerbation, unspecified asthma severity, unspecified whether persistent"
+1066,J45.909,Asthma with bronchitis
+1066,J45.909,"Asthma with allergic rhinitis, unspecified asthma severity, unspecified whether complicated, unspecified whether persistent"
+1066,J44.9,Asthma with COPD
+1066,J44.1,Chronic obstructive pulmonary disease with (acute) exacerbation
+1066,J45.909,Asthma with routine monitoring
+1066,J45.909,Asthma with intensive monitoring
+1066,J45.901,Asthma with severe exacerbation
+1066,J45.909,Asthma without acute exacerbation
+1066,J45.909,"Asthma, acute"
+1066,J45.909,"Extrinsic asthma, unspecified asthma severity, unspecified whether complicated, unspecified whether persistent"
+1066,J45.909,"Chronic asthma, unspecified asthma severity, unspecified whether complicated, unspecified whether persistent"
+1066,J45.901,"Extrinsic asthma with acute exacerbation, unspecified asthma severity, unspecified whether persistent"
+1066,J45.998,"Asthma, infective"
+1109,K21.9,"Gastroesophageal reflux disease, esophagitis presence not specified"
+1109,R06.81,"Apnea, not elsewhere classified"
+1109,K21.9,Gastro-esophageal reflux disease without esophagitis
+1109,K21.0,GERD with esophagitis
+1109,K22.2,Esophageal obstruction
+1109,K21.9,Chronic GERD
+1109,R07.9,"Chest pain, unspecified"
+1105,I50.9,"Acute on chronic congestive heart failure, unspecified heart failure type"
+1105,I50.9,"CHF (NYHA class I, ACC/AHA stage B)"
+1105,I50.9,"CHF (NYHA class II, ACC/AHA stage C)"
+1105,I50.9,"CHF (NYHA class III, ACC/AHA stage C)"
+1105,I50.9,"CHF (NYHA class IV, ACC/AHA stage D)"
+1105,I97.130,"CHF following cardiac surgery, postop"
+1105,I50.82,Biventricular CHF (congestive heart failure)
+1105,I50.31,"Diastolic CHF, acute"
+1105,I50.33,"Diastolic CHF, acute on chronic"
+1105,I50.32,"Diastolic CHF, chronic"
+1105,I11.0,"Hypertensive heart disease with congestive heart failure, unspecified heart failure type"
+1105,P29.0,Neonatal CHF (congestive heart failure)
+1105,I09.81,Rheumatic CHF (congestive heart failure)
+1105,R09.89,Suspected CHF (congestive heart failure)
+1105,I50.21,"Systolic CHF, acute"
+1105,I50.23,"Systolic CHF, acute on chronic"
+1105,I50.32,Chronic diastolic CHF (congestive heart failure)
+1105,I50.32,"Chronic diastolic CHF (congestive heart failure), NYHA class 1"
+1105,I10,Benign hypertension without CHF
+1105,I50.1,Chronic left-sided CHF (congestive heart failure)
+1105,I50.812,Chronic right-sided CHF (congestive heart failure)
+1105,I50.43,"Systolic and diastolic CHF, acute on chronic"
+1067,Q24.9,CHD (congenital heart disease)
+1067,F84.0,CHD8-related autism
+1067,Z15.89,Monoallelic mutation of CHD2 gene
+1067,Z15.89,Monoallelic mutation of CHD7 gene
+1067,Z15.89,Monoallelic mutation of CHD8 gene
+1067,F84.0,Autism associated with mutation in CHD8 gene
+1067,I25.111,"Coronary artery disease with angina pectoris with documented spasm, unspecified vessel or lesion type, unspecified whether native or transplanted heart"
+1110,K52.9,IBD (inflammatory bowel disease)
+1110,K52.9,Inflammatory bowel diseases (IBD)
+1111,K58.9,"Irritable bowel syndrome, unspecified type"
+1111,Z87.19,History of IBS
+1111,Z98.890,S/P IBS (intraoperative blood salvage)
+1111,Z83.79,Family history of irritable bowel syndrome
+1112,K74.60,"Hepatic cirrhosis, unspecified hepatic cirrhosis type, unspecified whether ascites present"
+1112,E84.9,Cirrhosis due to cystic fibrosis
+1112,E83.10,Cirrhosis due to hemochromatosis
+1112,T46.2X5A,"Adverse effect of other antidysrhythmic drugs, initial encounter"
+1112,K71.7,Toxic liver disease with fibrosis and cirrhosis of liver
+1112,K74.60,Unspecified cirrhosis of liver
+1112,R18.8,Other ascites
+1112,T86.49,Other complications of liver transplant
+1112,K70.30,"Alcoholic cirrhosis, unspecified whether ascites present"
+1112,K74.5,"Cirrhosis, biliary"
+1112,K76.1,"Cirrhosis, cardiac"
+1112,K74.69,"Cirrhosis, cryptogenic"
+1112,E83.110,"Cirrhosis, liver, pigmentary"
+1112,K70.31,Alcoholic cirrhosis of liver with ascites
+1112,B66.1,Biliary cirrhosis due to clonorchiasis
+1112,K74.69,Other cirrhosis of liver
+1112,B19.20,Unspecified viral hepatitis C without hepatic coma
+1112,P78.81,Congenital cirrhosis
+1112,Z83.79,FH: cirrhosis
+1112,E74.09,Other glycogen storage disease
+1112,B18.2,Chronic viral hepatitis C
+1112,B19.10,Unspecified viral hepatitis B without hepatic coma
+1112,K74.3,Hepatic cirrhosis due to primary biliary cholangitis
+1112,K75.81,Nonalcoholic steatohepatitis (NASH)
+1112,K86.89,Pancreatic cirrhosis
+1112,A52.74,Syphilitic cirrhosis
+1112,K72.90,Decompensated hepatic cirrhosis
+1112,Z87.19,H/O cirrhosis
+1114,K75.9,Hepatitis
+1114,B15.9,Viral hepatitis A without hepatic coma
+1114,Z92.29,Hepatitis A and hepatitis B vaccine administered
+1114,R76.8,Hepatitis A antibody positive
+1114,Z78.9,Hepatitis A immune
+1114,Z23,Hepatitis A immunoglobulin immunization
+1114,Z28.3,Hepatitis A vaccination not up to date
+1114,B15.0,Hepatitis A with hepatic coma
+1114,B19.11,"Hepatitis B infection without delta agent with hepatic coma, unspecified chronicity"
+1114,B19.10,Unspecified viral hepatitis B without hepatic coma
+1114,O98.419,"Viral hepatitis complicating pregnancy, unspecified trimester"
+1114,O98.411,"Viral hepatitis complicating pregnancy, first trimester"
+1114,O98.412,"Viral hepatitis complicating pregnancy, second trimester"
+1114,O98.413,"Viral hepatitis complicating pregnancy, third trimester"
+1114,B19.11,"Viral hepatitis B with hepatitis delta, with hepatic coma, unspecified chronicity"
+1114,B18.0,"Hepatitis B and delta, chronic, with coma"
+1114,B18.1,Hepatitis B carrier
+1114,B20,Human immunodeficiency virus [HIV] disease
+1114,B19.10,"Hepatitis B infection without delta agent without hepatic coma, unspecified chronicity"
+1114,B16.9,Hepatitis B no coma no hepatitis delta acute
+1114,B16.1,Hepatitis B no coma with hepatitis delta acute
+1114,B17.0,Hepatitis D virus infection
+1114,K75.89,Hepatitis cholestatic
+1114,G63,Polyneuropathy in diseases classified elsewhere
+1114,B19.20,Unspecified viral hepatitis C without hepatic coma
+1114,B18.2,Hepatitis C carrier
+1114,B19.21,"Hepatitis C virus infection with hepatic coma, unspecified chronicity"
+1114,Z86.19,Hepatitis C virus infection cured after antiviral drug therapy
+1114,B19.20,"Hepatitis C virus infection without hepatic coma, unspecified chronicity"
+1114,B17.10,Acute hepatitis C virus infection without hepatic coma
+1115,Z84.2,Family history of benign prostatic hyperplasia
+1116,F41.9,Anxiety
+1116,F41.8,Anxiety about health
+1116,F41.1,Anxiety about knowledge deficit
+1116, F93.8 ,Anxiety and fearfulness of childhood and adolescence
+1116,F41.9 ,"Anxiety disorder, unspecified"
+1116,O99.89,"Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium"
+1116,O99.340,"Other mental disorders complicating pregnancy, unspecified trimester"
+1116,F41.0,Anxiety attack
+1116,F45.8,Anxiety diarrhea
+1116,F41.9,"Anxiety disorder, unspecified type"
+1116,F06.4,Anxiety disorder due to brain injury
+1116,F16.980,Anxiety disorder due to dissociative drug
+1116,F06.8,Anxiety disorder due to multiple medical problems
+1116,O99.342,"Other mental disorders complicating pregnancy, second trimester"
+1116,O99.343,"Other mental disorders complicating pregnancy, third trimester"
+1116,O99.341,"Other mental disorders complicating pregnancy, first trimester"
+1116,Z78.9,Other specified health status
+1116,F41.9,Acute anxiety 
+1116,F41.1,Anticipatory anxiety
+1116,F41.9,Chronic anxiety
+1116,F51.5,Dream anxiety disorder
+1116,F41.0,Panic disorder [episodic paroxysmal anxiety]
+1116,F40.8,Phobic anxiety disorder of childhood
+1116,F40.9,Phobic anxiety disorder
+1117,F31.30,"Bipolar affective disorder, current episode depressed, current episode severity unspecified"
+1117,F31.70,Bipolar disorder in remission
+1117,F31.9,Bipolar disorder with psychotic features
+1117,F31.32,Bipolar disorder with moderate depression
+1117,F31.4,Bipolar disorder with severe depression
+1117,F31.13,Bipolar disorder with severe mania
+1117,F31.5,"Bipolar disorder, curr episode depressed, severe, w/psychotic features"
+1117,F31.12,"Bipolar disorder, curr episode manic w/o psychotic features, moderate"
+1117,F31.63,"Bipolar disorder, curr episode mixed, severe, w/o psychotic features"
+1117,F31.64,"Bipolar disorder, curr episode mixed, severe, with psychotic features"
+1117,F31.31,"Bipolar disorder, current episode depressed, mild"
+1117,F31.0,"Bipolar disorder, current episode hypomanic"
+1117,F31.2,"Bipolar disorder, current episode manic severe with psychotic features"
+1117,F31.11,"Bipolar disorder, current episode manic w/o psychotic features, mild"
+1117,F31.10,"Bipolar disorder, current episode manic without psychotic features"
+1117,F31.62,"Bipolar disorder, current episode mixed, moderate"
+1117,F31.60,"Bipolar affective disorder, current episode mixed, current episode severity unspecified"
+1117,F31.76,"Bipolar disorder, in full remission, most recent episode depressed"
+1117,F31.72,"Bipolar disorder, in full remission, most recent episode hypomanic"
+1117,F31.74,"Bipolar disorder, in full remission, most recent episode manic"
+1117,F31.78,"Bipolar disorder, in full remission, most recent episode mixed"
+1117,F31.75,"Bipolar disorder, in partial remission, most recent episode depressed"
+1117,F31.71,"Bipolar disorder, in partial remission, most recent episode hypomanic"
+1117,F31.77,"Bipolar disorder, in partial remission, most recent episode mixed"
+1118,F32.9,"Depression, unspecified depression type"
+1118,F32.9,"Major depressive disorder, single episode, unspecified"
+1118,O99.340,"Other mental disorders complicating pregnancy, unspecified trimester"
+1118,O99.341,"Other mental disorders complicating pregnancy, first trimester"
+1118,O99.342,"Other mental disorders complicating pregnancy, second trimester"
+1118,O99.343 ,"Other mental disorders complicating pregnancy, third trimester"
+1118,O99.345,Other mental disorders complicating the puerperium
+1118,F06.31,Mood disorder due to known physiological condition with depressive features
+1118,I69.398,Other sequelae of cerebral infarction
+1118,I63.9,"Cerebral infarction, unspecified"
+1118,R51,Headache
+1118,Z63.79,Depression in member of household
+1118,R09.2,Depression of central nervous system
+1118,F33.9,"Depression of infancy to early childhood, major depression, recurrent episode"
+1118,F33.42,"Depression of infancy to early childhood, major depression, recurrent, in full remission"
+1118,F33.41,"Depression of infancy to early childhood, major depression, recurrent, in partial remission"
+1118,F33.0,"Depression of infancy to early childhood, major depression, recurrent, mild episode"
+1118,F33.1,"Depression of infancy to early childhood, major depression, recurrent, moderate episode"
+1118,F33.2,"Depression of infancy to early childhood, major depression, recurrent, severe episode"
+1118,F32.4,"Depression of infancy to early childhood, major depression, single episode, in partial remission"
+1118,F32.0,"Depression of infancy to early childhood, major depression, single episode, mild"
+1118,F32.1,"Depression of infancy to early childhood, major depression, single episode, moderate"
+1118,F32.2,"Depression of infancy to early childhood, major depression, single episode, severe"
+1118,F32.5,"Depression of infancy to early childhood, type I, single episode, in full remission"
+1118,M95.2,Depression of metopic suture
+1118,Z13.89,Depression screen
+1118,F32.89,"Depression, involutional"
+1118,F33.3,"Depression, major, recurrent, severe with psychosis"
+1118,F34.1,"Depression, neurotic"
+1118,F53,"Depression, postpartum"
+1118,F32.3,"Depression, psychotic"
+1118,F43.20,Anaclitic depression
+1120,G89.29,Other chronic pain
+1120,Y84.2,"Radiological procedure and radiotherapy as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure"
+1120,G89.28,Other chronic postprocedural pain
+1120,C80.1,"Malignant (primary) neoplasm, unspecified"
+1120,G89.4,Chronic pain associated with significant psychosocial dysfunction
+1120,G89.21,Chronic pain due to injury
+1120,G89.3,Chronic pain due to malignant neoplastic disease
+1120,R10.2,Pelvic and perineal pain
+1120,R51,Headache
+1120,M79.672,Pain in left foot
+1120,M25.512,Pain in left shoulder
+1120,H92.01,"Otalgia, right ear"
+1120,M79.671,Pain in right foot
+1120,M25.511,Pain in right shoulder
+1120,M25.572,Pain in left ankle and joints of left foot
+1120,M25.571,Pain in right ankle and joints of right foot
+1120,H92.03,"Otalgia, bilateral"
+1120,M25.562,Pain in left knee
+1120,M25.561,Pain in right knee
+1120,M79.605 ,Pain of left leg
+1120,M25.561,Pain in right leg
+1120,M79.605,Pain of left leg
+1120,M79.604,Pain in right leg
+1120,M79.646,Pain in unspecified finger(s)
+1120,M79.602,Pain of left arm
+1120,M79.601,Pain in right arm
+1120,M25.532,Pain in left wrist
+1120,M25.531,Pain in right wrist
+1120,N64.4,Mastodynia
+1120,M25.522,Pain in left elbow
+1120,M79.642,Pain in left hand
+1120,R10.32,Left lower quadrant pain
+1120,M79.645,Pain in left finger(s
+1120,M54.9,"Dorsalgia, unspecified"
+1120,R39.82,Chronic bladder pain
+1120,M79.1,Myalgia
+1120,M54.2,Cervicalgia
+1120,M53.3,"Sacrococcygeal disorders, not elsewhere classified"
+1120,K08.9,"Disorder of teeth and supporting structures, unspecified"
+1120,R10.13,Epigastric pain
+1120,R10.9,Unspecified abdominal pain
+1120,R68.84,Jaw pain
+1120,M25.50,Pain in unspecified joint
+1121,M19.90,"Other type of osteoarthritis, unspecified site"
+1121,M19.119,Osteoarthritis due to rotator cuff tear
+1121,M19.022,Osteoarthritis involving joint of left upper arm
+1121,M19.029,Osteoarthritis involving joint of upper arm
+1121,M19.021,Osteoarthritis involving joint of right upper arm
+1121,M15.9,Osteoarthritis involving multiple joints on both sides of body
+1121,M19.019,Osteoarthritis of AC (acromioclavicular) joint
+1121,M19.012,Primary osteoarthritis of left shoulder
+1121,M19.011,"Primary osteoarthritis, right shoulder"
+1121,M16.2,Osteoarthritis of bilateral hips resulting from hip dysplasia 
+1121,M19.072,"Primary osteoarthritis, left ankle and foot"
+1121,M19.071,"Primary osteoarthritis, right ankle and foot"
+1121,M19.032,Primary osteoarthritis of left wrist
+1121,M19.031,"Primary osteoarthritis, right wrist"
+1121,M18.12,"Unilateral primary osteoarthritis of first carpometacarpal joint, left hand"
+1121,M18.11,"Unilateral primary osteoarthritis of first carpometacarpal joint, right hand"
+1121,M18.0,Osteoarthritis of carpometacarpal (CMC) joint of both thumbs
+1121,M19.049,Osteoarthritis of carpometacarpal joint
+1121,M47.12,Osteoarthritis of cervical spine with myelopathy
+1121,M47.812,Osteoarthritis of cervical spine without myelopathy
+1121,M47.817,Osteoarthritis of facet joint at L5-S1 level of lumbosacral spine
+1121,M47.814,Osteoarthritis of facet joint of thoracic spine
+1121,M19.042,Osteoarthritis of fifth carpometacarpal joint of left hand
+1121,M19.041,Osteoarthritis of fifth carpometacarpal joint of right hand
+1121,M18.9,Osteoarthritis of first carpometacarpal (CMC) joint of one hand
+1121,M19.079,Osteoarthritis of first metatarsophalangeal joint
+1122,M80.00XG,"Osteoporosis with current pathological fracture with delayed healing, unspecified osteoporosis type, subsequent encounter"
+1122,M81.8,Other osteoporosis without current pathological fracture
+1122,L81.8,Other specified disorders of pigmentation
+1122,Q87.89,"Other specified congenital malformation syndromes, not elsewhere classified"
+1122,E84.8,Cystic fibrosis with other manifestations
+1122,M81.0,Osteoporosis not affecting current episode of care
+1122,Z29.8,Osteoporosis prophylaxis
+1122,Z13.820,Osteoporosis screening
+1122,M80.072G,Osteoporosis with pathological fracture of left ankle and foot with delayed healing
+1122,M80.072P,Osteoporosis with pathological fracture of left ankle and foot with malunion
+1122,M80.072D,Osteoporosis with pathological fracture of left ankle and foot with routine healing
+1122,M80.032G,Osteoporosis with pathological fracture of left forearm with delayed healing
+1122,M80.032P,Osteoporosis with pathological fracture of left forearm with malunion
+1122,M80.032K,Osteoporosis with pathological fracture of left forearm with nonunion
+1122,M80.032D,Osteoporosis with pathological fracture of left forearm with routine healing
+1122,M80.042G,Osteoporosis with pathological fracture of left hand with delayed healing
+1122,M80.042P,Osteoporosis with pathological fracture of left hand with malunion
+1122,M80.042K,Osteoporosis with pathological fracture of left hand with nonunion
+1122,M80.042D,Osteoporosis with pathological fracture of left hand with routine healing
+1122,M80.022P,Osteoporosis with pathological fracture of left humerus with malunion
+1122,M80.022K,Osteoporosis with pathological fracture of left humerus with nonunion
+1122,M80.022D,Osteoporosis with pathological fracture of left humerus with routine healing
+1122,M80.012G,Osteoporosis with pathological fracture of left shoulder region with delayed healing
+1122,M80.012P,Osteoporosis with pathological fracture of left shoulder region with malunion
+1122,M80.012K,Osteoporosis with pathological fracture of left shoulder region with nonunion
+1122,M80.012D,Osteoporosis with pathological fracture of left shoulder region with routine
+1122,M80.022G,Osteoporosis with pathological fracture of left upper arm with delayed healing
+1123,M48.00,"Spinal stenosis, unspecified spinal region"
+1123,M48.061,Spinal stenosis at L4-L5 level
+1123,M48.02,Spinal stenosis in cervical region
+1123,M48.03,Spinal stenosis of cervicothoracic region
+1123,M48.062,Spinal stenosis of lumbar region with neurogenic claudication
+1123,M48.07,Spinal stenosis of lumbosacral region
+1123,M48.01,Spinal stenosis of occipito-atlanto-axial region
+1123,M48.08,Spinal stenosis of sacral region
+1123,M48.04,Spinal stenosis of thoracic region
+1123,M48.05,Spinal stenosis of thoracolumbar region
+1123,Q76.49,Congenital spinal stenosis of lumbar region
+1123,Z82.69,FH: spinal stenosis
+1123,Z87.39,H/O spinal stenosis
+1123,M48.00,"Spinal stenosis, site unspecified"
+1123,M45.9,Ankylosing spondylitis of unspecified sites in spine
+1123,M54.5,Acute low back pain with possible spinal stenosis of less than six weeks' duration
+1123,M48.02,Spinal stenosis of cervical region
+1123,G95.89,Other specified diseases of spinal cord
+1123,M99.89,Neuroforaminal stenosis of cervical spine
+1123,M99.82,Neuroforaminal stenosis of thoracic spine
+1123,M47.12,Stenosis of cervical spine with myelopathy
+1123,M47.16,Myelopathy concurrent with and due to stenosis of lumbar spine
+1060,G30.9,"Alzheimer''s disease, unspecified"
+1060,F02.80,Dementia in other diseases classified elsewhere without behavioral disturbance
+1060,F02.81,Dementia in other diseases classified elsewhere with behavioral disturbance
+1060,G30.1,Alzheimer's disease with late onset
+1060,G30.0,Alzheimer's disease with early onset
+1124,G35,Multiple sclerosis
+1124,O99.350,"Diseases of the nervous system complicating pregnancy, unspecified trimester"
+1124,O99.351,"Diseases of the nervous system complicating pregnancy, first trimester"
+1124,O99.352,"Diseases of the nervous system complicating pregnancy, second trimester"
+1124,O99.353,"Diseases of the nervous system complicating pregnancy, third trimester"
+1124,Q80.9,"Congenital ichthyosis, unspecified"
+1124,D66,Hereditary factor VIII deficiency
+1124,Q87.89,"Other specified congenital malformation syndromes, not elsewhere classified"
+1124,Q78.8,Multiple diaphyseal sclerosis
+1124,D14.30,Multiple sclerosing hemangiomas of lung
+1124,,FH: multiple sclerosis
+1125,Q99.8,Parkinson disease type 9
+1125,G20,Parkinson disease
+1125,G21.3,"Parkinson disease, postencephalitic"
+1125,G31.83,"Parkinson's disease, Lewy body"
+1125,G21.19,Drug-induced Parkinson's disease
+1125,Z86.69,H/O Parkinson's disease
+1125,Z82.0,Family history of Parkinson disease
+1125,G20,Parkinson's disease
+1125,G24.9,"Dystonia, unspecified"
+1125,F06.8,Other specified mental disorders due to known physiological condition
+1125,G90.3,Orthostatic hypotension due to Parkinson's disease
+1125,J98.4,Other disorders of lung
+1126,G40.909,Seizure disorder
+1126,G40.909,"Epilepsy, unspecified, not intractable, without status epilepticus"
+1126,I69.398,Other sequelae of cerebral infarction
+1126,O99.351,"Diseases of the nervous system complicating pregnancy, first trimester"
+1126,O99.352,"Diseases of the nervous system complicating pregnancy, second trimester"
+1126,O99.353,"Diseases of the nervous system complicating pregnancy, third trimester"
+1126,O99.350,"Diseases of the nervous system complicating pregnancy, unspecified trimester"
+1126,O99.354,Diseases of the nervous system complicating childbirth
+1126,O99.355,Diseases of the nervous system complicating the puerperium
+1126,G40.409,"Seizure disorder, atonic"
+1126,G40.301,"Seizure disorder, convulsive, with status epilepticus"
+1126,G40.109 ,"Seizure disorder, focal motor"
+1126,G40.319 ,"Seizure disorder, generalized convulsive, intractable"
+1126,G40.919,"Seizure disorder, intractable"
+1126,G40.119,"Seizure disorder, intractable"
+1126,G40.901,"Seizure disorder, status epilepticus, nonconvulsive"
+1126,G40.219,"Seizure disorder, temporal lobe, intractable"
+1126,E88.9,"Metabolic disorder, unspecified"
+1126,R56.9,Unspecified convulsions
+1126,G40.309,Clonic seizure disorder
+1126,G40.802,Gelastic seizure disorder
+1126,G40.89,Kifafa seizure disorder
+1126,R56.1,Post traumatic seizure disorder
+1126,Q07.8,Other specified congenital malformations of nervous system
+1126,Q68.8,Other specified congenital musculoskeletal deformities
+1127,N18.9,"Chronic kidney disease, unspecified CKD stage"
+1127,Z99.2,Dependence on renal dialysis
+1127,N18.6,End stage renal disease
+1127,N18.1,"CKD (chronic kidney disease) stage 1, GFR 90 ml/min or greater"
+1127,N18.2,"CKD (chronic kidney disease) stage 2, GFR 60-89 ml/min"
+1127,N18.3,"CKD (chronic kidney disease) stage 3, GFR 30-59 ml/min"
+1127,N18.4,"CKD (chronic kidney disease) stage 4, GFR 15-29 ml/min"
+1127,N18.5,"CKD (chronic kidney disease) stage 5, GFR less than 15 ml/min"
+1127,N18.1,"Chronic kidney disease, stage 1"
+1127,E10.22,Type 1 diabetes mellitus with diabetic chronic kidney disease
+1127,E11.22,Type 2 diabetes mellitus with diabetic chronic kidney disease
+1127,N18.5,"Chronic kidney disease, stage V"
+1127,I12.0,Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease
+1127,I12.9,"Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease"
+1127,O10.22,Pre-existing hypertensive chronic kidney disease complicating childbirth
+1127,O10.219,Hypertensive CKD (chronic kidney disease) complicating pregnancy
+1127,O10.23,Hypertensive CKD (chronic kidney disease) complicating puerperium
+1127,Z84.1,Family history of CKD (chronic kidney disease
+1127,I13.11,"Hypertensive heart and chronic kidney disease without heart failure, with stage 5 chronic kidney disease, or end stage renal disease"
+1127,I13.2,"Hypertensive heart and chronic kidney disease with heart failure and with stage 5 chronic kidney disease, or end stage renal disease"
+1127,E13.22,Other specified diabetes mellitus with diabetic chronic kidney disease
+1128,J44.9,"Chronic obstructive pulmonary disease, unspecified COPD type"
+1128,J20.9,"Acute bronchitis, unspecified"
+1128,J43.9,"Pulmonary emphysema, unspecified emphysema type"
+1128,J44.0,Chronic obstructive pulmonary disease with acute lower respiratory infection
+1128,J44.1,COPD with bronchial hyperresponsiveness
+1128,J44.9,"Chronic obstructive pulmonary disease, unspecified"
+1128,J96.00,"Acute respiratory failure, unspecified whether with hypoxia or hypercapnia"
+1128,Z82.5,COPD (chronic obstructive pulmonary disease)
+1128,G47.33,Obstructive sleep apnea (adult) (pediatric)
+1128,Z76.89,Encounter for evaluation of COPD
+1128,Z78.9,No family history of COPD
+1129,G47.33,Obstructive sleep apnea
+1129,R06.81,"Obstructive apnea, non-sleep"
+1129,Z86.69,History of obstructive sleep apnea
+1129,Z91.89,Risk factors for obstructive sleep apnea
+1129,G47.33,Obstructive sleep apnea (adult) (pediatric
+1129,G47.34,Idiopathic sleep related nonobstructive alveolar hypoventilation
+1129,J96.02,Acute respiratory failure with hypercapnia
+1130,M06.9,Rheumatoid arthritis flare
+1130,M06.072,"Rheumatoid arthritis without rheumatoid factor, left ankle and foot"
+1130,M06.071,"Rheumatoid arthritis without rheumatoid factor, right ankle and foot"
+1130,M05.771,Rheumatoid arthritis with rheumatoid factor of left ankle and foot without organ or systems involvement
+1130,M05.722,Rheumatoid arthritis of left elbow without organ or system involvement with positive rheumatoid factor
+1130,M05.721,Rheumatoid arthritis with rheumatoid factor of right elbow without organ or systems involvement
+1130,M06.042,"Rheumatoid arthritis without rheumatoid factor, left hand"
+1130,M06.041,"Rheumatoid arthritis without rheumatoid factor, right hand"
+1130,M05.742,Rheumatoid arthritis of left hand without organ or system involvement with positive rheumatoid factor
+1130,M05.741,Rheumatoid arthritis with rheumatoid factor of right hand without organ or systems involvement
+1130,M06.052,"Rheumatoid arthritis without rheumatoid factor, left hip"
+1130,M06.051,"Rheumatoid arthritis without rheumatoid factor, right hip"
+1130,M06.062,"Rheumatoid arthritis without rheumatoid factor, left knee"
+1130,M06.061,"Rheumatoid arthritis without rheumatoid factor, right knee"
+1130,M05.762,Rheumatoid arthritis of left knee without organ or system involvement with positive rheumatoid factor
+1130,M05.761,Rheumatoid arthritis with rheumatoid factor of right knee without organ or systems involvement
+1130,M05.712,Rheumatoid arthritis of left shoulder without organ or system involvement with positive rheumatoid factor
+1130,M05.712,Rheumatoid arthritis with rheumatoid factor of right shoulder without organ or systems involvement
+1130,M05.711,Rheumatoid arthritis with rheumatoid factor of right shoulder without organ or systems involvement
+1130,M05.732,Rheumatoid arthritis of left wrist without organ or system involvement with positive rheumatoid factor
+1130,M05.731,Rheumatoid arthritis with rheumatoid factor of right wrist without organ or systems involvement
+1130,M06.012,Rheumatoid arthritis involving left shoulder with negative rheumatoid factor
+1130,M06.032,Rheumatoid arthritis involving left wrist with negative rheumatoid factor
+1130,M05.79,Rheumatoid arthritis involving multiple sites with positive rheumatoid factor
+1130,M06.021,Rheumatoid arthritis involving right elbow with negative rheumatoid factor
+1130,M05.751,Rheumatoid arthritis involving right hip with positive rheumatoid factor
+1130,M06.031,Rheumatoid arthritis involving right wrist with negative rheumatoid factor
+1130,M45.9,Rheumatoid arthritis involving vertebra with positive rheumatoid factor
+1131,M32.13,"Systemic lupus erythematosus with lung involvement, unspecified SLE type"
+1131,M32.9,"Systemic lupus erythematosus, unspecified"
+1131,O99.89,"Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium"
+1131,M32.9,Systemic lupus erythematosus (SLE) in childhood
+1131, R89.4 ,Systemic lupus erythematosus (SLE) inhibitor
+1131,D68.312,Systemic lupus erythematosus (SLE) inhibitor with hemorrhagic disorder
+1131,M32.19,Systemic lupus erythematosus (SLE) with leukopenia
+1131,D68.8 ,Systemic lupus erythematosus inhibitor syndrome
+1131,O26.899,"Other specified pregnancy related conditions, unspecified trimester"
+1131,M32.14,Systemic lupus erythematosus with focal and segmental proliferative glomerulonephritis
+1131,M32.10,Systemic lupus erythematosus with organ system involvement
+1131,M32.11,Endocarditis in systemic lupus erythematosus
+1131,Z87.39,History of systemic lupus erythematosus (SLE)
+1131,M32.12,Pericarditis in systemic lupus erythematosus
+1131,Z82.69,Family history of systemic lupus erythematosus
+1131,Z83.2,Family history of systemic lupus erythematosus (SLE) in mother
+1131,D59.1,Other autoimmune hemolytic anemias
+1131,P00.89,Newborn affected by maternal systemic lupus erythematosus
+1131,M32.15,Tubulo-interstitial nephropathy in systemic lupus erythematosus
+1131,I31.0,Chronic adhesive pericarditis
+1131,M32.19,Other organ or system involvement in systemic lupus erythematosus
+1131,G25.5,Other chorea
+1131,G37.9,"Demyelinating disease of central nervous system, unspecified"
+1071,E03.9,"Hypothyroidism, unspecified type"
+1071,O99.281,"Endocrine, nutritional and metabolic diseases complicating pregnancy, first trimester"
+1071,O99.283,"Endocrine, nutritional and metabolic diseases complicating pregnancy, third trimester"
+1071,O99.280,"Endocrine, nutritional and metabolic diseases complicating pregnancy, unspecified trimester"
+1071,E89.0,Hypothyroidism associated with surgical procedure
+1071,E03.4,Hypothyroidism due to acquired atrophy of thyroid
+1071,E03.2,Hypothyroidism due to medicaments and other exogenous substances
+1071,T46.2X1A,"Poisoning by other antidysrhythmic drugs, accidental (unintentional), initial encounter"
+1071,E85.9,"Amyloidosis, unspecified"
+1071,E03.8,Other specified hypothyroidism
+1071,E07.1,Hypothyroidism due to defect in thyroid hormone synthesis
+1071,E03.1,Hypothyroidism due to mutation in transcription factor of pituitary development
+1071,E07.89,Hypothyroidism due to thyroid insensitivity to TSH
+1071,O99.282,"Endocrine, nutritional and metabolic diseases complicating pregnancy, second trimester"
+1071,E06.3,"Hypothyroidism, acquired, autoimmune"
+1071,E01.8,"Hypothyroidism, iodine deficiency"
+1071,T56.891A,"Toxic effect of other metals, accidental (unintentional), initial encounter"
+1071,R94.6,Borderline hypothyroidism
+1071,G25.5,Other chorea
+1071,E03.1,Congenital hypothyroidism without goiter
+1071,P22.9,"Respiratory distress of newborn, unspecified"
+1071,Q87.89,"ther specified congenital malformation syndromes, not elsewhere classified"
+1071,P72.2,Congenital hypothyroidism due to transplacental passage of maternal thyroid stimulating hormone (TSH) binding inhibitory antibody
+Transient Ischemic Attack,G45.9,"Transient cerebral ischemia, unspecified type"
+Transient Ischemic Attack,G45.0,TIA involving basilar artery
+Transient Ischemic Attack,G45.1,TIA involving carotid artery
+Transient Ischemic Attack,G45.9,"Transient cerebral ischemic attack, unspecified"
+Transient Ischemic Attack,G97.81,Other intraoperative complications of nervous system
+Transient Ischemic Attack,G97.82,Other postprocedural complications and disorders of nervous system
+Transient Ischemic Attack,Z86.73,Hx TIA/stroke w/o resid
+Transient Ischemic Attack,Z86.69,History of TIA due to embolism
+Transient Ischemic Attack,G45.8,Acute anterior circulation TIA
+Transient Ischemic Attack,Z15.09,Genetic susceptibility to other malignant neoplasm
+Transient Ischemic Attack,Z15.89,Genetic susceptibility to other disease
+Transient Ischemic Attack,Z82.3,Family history of TIAs
+Transient Ischemic Attack,I66.9,Cerebral embolism with transient ischemic attack (TIA)
+1070,I70.209,"Unspecified atherosclerosis of native arteries of extremities, unspecified extremity"
+1070,E11.51,Type 2 diabetes mellitus with diabetic peripheral angiopathy without gangrene
+1070,E11.9,"Diabetes type 2, no ocular involvement"
+1070,E10.65,"Diabetes, type 1.5, uncontrolled, managed as type 2"
+1070,E10.9,"Diabetes type 1, no ocular involvement"
+1070,E10.51,Type 1 diabetes mellitus with diabetic peripheral angiopathy without gangrene
+1070,G56.00,"Carpal tunnel syndrome, unspecified upper limb"
+1070,E11.41,Type 2 diabetes mellitus with diabetic mononeuropathy
+1070,E11.69,Diabetes mellitus type 2 with coma
+1070,E11.8,"Type 2 diabetes mellitus with complication, unspecified whether long term insulin use"
+1070,E11.01,"Diabetes mellitus type 2 with hyperosmolar coma, uncontrolled, unspecified whether long term insulin use"
+1070,E11.11,"Type 2 diabetes mellitus with ketoacidotic coma, unspecified whether long term insulin use"
+1070,E11.49,Diabetes mellitus type 2 with neurological manifestations
+1070,E11.3399,"Type 2 diabetes mellitus with moderate nonproliferative retinopathy without macular edema, unspecified laterality, unspecified whether long term insulin use"
+1070,E11.9,"Type 2 diabetes mellitus without complication, unspecified whether long term insulin use"
+1070,E10.49,Type 1 diabetes mellitus with other diabetic neurological complication
+1070,E10.8,"Diabetes mellitus type 1, controlled, with complications"
+1070,E11.8,Type 2 diabetes mellitus with unspecified complications
+1070,E11.65,Type 2 diabetes mellitus with hyperglycemia
+1070,E11.21,Type 2 diabetes mellitus with diabetic nephropathy
+1070,E13.21,Secondary diabetes mellitus with nephropathy
+1070,E10.40,"Diabetic neuropathy, type I diabetes mellitus"
+1070,E11.40,"Type 2 diabetes mellitus with diabetic neuropathy, unspecified"
+1070,Z79.4,Long term current use of insulin
+1070,E11.40,"Type 2 diabetes mellitus with diabetic neuropathy, without long-term current use of insulin"
+1070,E08.43,Diabetic autonomic neuropathy associated with diabetes mellitus due to underlying condition
+1070,E10.43,Diabetic autonomic neuropathy associated with type 1 diabetes mellitus
+1070,E11.43,Diabetic autonomic neuropathy associated with type 2 diabetes mellitus
+1070,E11.42,Diabetic peripheral neuropathy
+1070,E10.42,Diabetic peripheral neuropathy associated with type 1 diabetes mellitus
+1070,E11.610,Diabetic neuropathic arthritis
+1070,E10.610,Diabetic neuropathic arthropathy due to type 1 diabetes mellitus
+1070,E11.44,Asymmetric diabetic proximal motor neuropathy
+1070,Z86.39,Hx of diabetic neuropathy
+Diabetes type 1,E10.9,"Diabetes, type 1.5, controlled, managed as type 2"
+Diabetes type 1,E10.65,"Diabetes, type 1.5, uncontrolled, managed as type 1"
+Diabetes type 1,I70.209,"Unspecified atherosclerosis of native arteries of extremities, unspecified extremity"
+Diabetes type 1,E10.51,Type 1 diabetes mellitus with diabetic peripheral angiopathy without gangrene
+Diabetes type 1,G56.00,"Carpal tunnel syndrome, unspecified upper limb"
+Diabetes type 1,E10.49,Type 1 diabetes mellitus with other diabetic neurological complication
+Diabetes type 1,E10.69,"Diabetes mellitus type 1 with coma, insulin dependent"
+Diabetes type 1,E10.8,Diabetes mellitus type 1 with complications
+Diabetes type 1,O24.011,"Type 1 diabetes mellitus affecting pregnancy in first trimester, antepartum"
+Diabetes type 1,O24.013,"Type 1 diabetes mellitus affecting pregnancy in third trimester, antepartum"
+Diabetes type 1,O24.012,"Type 1 diabetes mellitus affecting pregnancy in second trimester, antepartum"
+Diabetes type 1,O24.019,"Type 1 diabetes mellitus complicating pregnancy, antepartum"
+Diabetes type 1,E10.39,Type 1 diabetes mellitus with advanced ophthalmic disease
+Diabetes type 1,R80.9,"Proteinuria, unspecified"
+Diabetes type 1,E10.29,Type 1 diabetes mellitus with other diabetic kidney complication
+Diabetes type 1,E10.43,Type 1 diabetes mellitus with autonomic neuropathy
+Diabetes type 1,E10.618,Type 1 diabetes mellitus with arthropathy

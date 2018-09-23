@@ -30,20 +30,28 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99.666666666666671"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zX4-ek-y1o">
-                                                    <rect key="frame" x="15" y="57" width="88" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ICD Code:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKJ-87-JNW">
-                                                    <rect key="frame" x="15" y="21" width="78" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="Oz1-xE-6Eq">
+                                                    <rect key="frame" x="15" y="16" width="285" height="68"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="ICD Code:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKJ-87-JNW">
+                                                            <rect key="frame" x="0.0" y="0.0" width="285" height="42.666666666666664"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Description" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zX4-ek-y1o">
+                                                            <rect key="frame" x="0.0" y="47.666666666666664" width="285" height="20.333333333333336"/>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xlm-zC-R5u">
-                                                    <rect key="frame" x="286" y="36" width="49" height="30"/>
+                                                    <rect key="frame" x="310" y="35" width="50" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="50" id="agZ-E1-m3H"/>
+                                                    </constraints>
                                                     <state key="normal" title="Record"/>
                                                     <connections>
                                                         <action selector="segueButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ggm-GM-rg7"/>
@@ -51,17 +59,18 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="zX4-ek-y1o" firstAttribute="top" secondItem="oKJ-87-JNW" secondAttribute="bottom" constant="15" id="1U9-tf-mEs"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="xlm-zC-R5u" secondAttribute="trailing" constant="25" id="Vbm-RI-Ufm"/>
-                                                <constraint firstItem="xlm-zC-R5u" firstAttribute="top" secondItem="UGh-Ex-Wvv" secondAttribute="topMargin" constant="25" id="eLm-Jm-9Pe"/>
-                                                <constraint firstItem="oKJ-87-JNW" firstAttribute="leading" secondItem="UGh-Ex-Wvv" secondAttribute="leadingMargin" id="qLR-80-taH"/>
-                                                <constraint firstItem="zX4-ek-y1o" firstAttribute="leading" secondItem="UGh-Ex-Wvv" secondAttribute="leadingMargin" id="r0K-NL-QuL"/>
-                                                <constraint firstItem="oKJ-87-JNW" firstAttribute="top" secondItem="UGh-Ex-Wvv" secondAttribute="topMargin" constant="10" id="xaw-sF-lqk"/>
+                                                <constraint firstItem="Oz1-xE-6Eq" firstAttribute="leading" secondItem="UGh-Ex-Wvv" secondAttribute="leadingMargin" id="HfR-XD-igu"/>
+                                                <constraint firstItem="xlm-zC-R5u" firstAttribute="centerY" secondItem="UGh-Ex-Wvv" secondAttribute="centerY" id="OFG-Dz-rKb"/>
+                                                <constraint firstItem="Oz1-xE-6Eq" firstAttribute="top" secondItem="UGh-Ex-Wvv" secondAttribute="topMargin" constant="5" id="OMz-Xy-Xff"/>
+                                                <constraint firstItem="xlm-zC-R5u" firstAttribute="leading" secondItem="Oz1-xE-6Eq" secondAttribute="trailing" constant="10" id="Qzu-ll-qch"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="xlm-zC-R5u" secondAttribute="trailing" id="Vbm-RI-Ufm"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Oz1-xE-6Eq" secondAttribute="bottom" constant="5" id="tp0-5A-OV8"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="descriptionLabel" destination="zX4-ek-y1o" id="DZ5-op-JZG"/>
                                             <outlet property="icdLabel" destination="oKJ-87-JNW" id="e1l-94-n3F"/>
+                                            <outlet property="recordButton" destination="xlm-zC-R5u" id="buR-Hx-OsR"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -83,7 +92,7 @@
                     <navigationItem key="navigationItem" id="09C-ZP-lnA"/>
                     <connections>
                         <outlet property="newTable" destination="nKQ-Af-QCi" id="qPw-zo-3pQ"/>
-                        <segue destination="nOq-Db-Yp8" kind="show" identifier="speechSegue" id="zRp-iq-wLl"/>
+                        <segue destination="nOq-Db-Yp8" kind="show" identifier="speechSegue" id="DNb-I9-MQS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

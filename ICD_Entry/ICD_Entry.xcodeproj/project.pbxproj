@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17E090E421574DFB00D04128 /* icd10_file.csv in Resources */ = {isa = PBXBuildFile; fileRef = 17E090E321574DFB00D04128 /* icd10_file.csv */; };
 		F2873976214599ED008A7826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2873975214599ED008A7826 /* AppDelegate.swift */; };
 		F2873978214599ED008A7826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2873977214599ED008A7826 /* ViewController.swift */; };
 		F287397B214599ED008A7826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2873979214599ED008A7826 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17E090E321574DFB00D04128 /* icd10_file.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icd10_file.csv; sourceTree = "<group>"; };
 		F2873972214599ED008A7826 /* ICD_Entry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICD_Entry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2873975214599ED008A7826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2873977214599ED008A7826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17E090E221574DE900D04128 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				17E090E321574DFB00D04128 /* icd10_file.csv */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		F2873969214599ED008A7826 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +115,7 @@
 		F2873974214599ED008A7826 /* ICD_Entry */ = {
 			isa = PBXGroup;
 			children = (
+				17E090E221574DE900D04128 /* Resources */,
 				F2A3622021475D9400F08E58 /* SpeechViewController.swift */,
 				F2873975214599ED008A7826 /* AppDelegate.swift */,
 				F2873977214599ED008A7826 /* ViewController.swift */,
@@ -241,6 +252,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E090E421574DFB00D04128 /* icd10_file.csv in Resources */,
 				F2873983214599EE008A7826 /* LaunchScreen.storyboard in Resources */,
 				F2873980214599EE008A7826 /* Assets.xcassets in Resources */,
 				F287397B214599ED008A7826 /* Main.storyboard in Resources */,
