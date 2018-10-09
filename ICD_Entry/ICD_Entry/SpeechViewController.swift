@@ -34,7 +34,7 @@ class SpeechViewController: UIViewController {
         
         let utf8StringEncoded =  StringEncoded?.data(using: String.Encoding.utf8)
         
-        guard let base64Encoded = utf8StringEncoded?.base64EncodedData() else {
+        guard let base64Encoded = utf8StringEncoded?.base64EncodedString() else {
             return
         }
         
@@ -48,8 +48,8 @@ class SpeechViewController: UIViewController {
             "Postman-Token": "b3ab251e-78c9-409d-a550-b642b0a41f42"
         ]
         let parameters = [
-            "body": "\(base64Encoded)",
-            "description": "\(icdObj[1])",
+            "body": "\(icdObj[1])",
+            "description": "\(base64Encoded)",
             "icd": "\(icdObj[0])"
             ] as [String : Any]
         
