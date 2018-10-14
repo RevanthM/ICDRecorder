@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet var newTable: UITableView!
     
     var networkClass = NetworkingData()
+    let icdSM = ICDServiceManager()
     
     var icdList = [[String]]()
     
@@ -26,6 +27,10 @@ class ViewController: UIViewController {
         var data = readDataFromCSV(fileName: "icd10_file", fileType: "csv")
         data = cleanRows(file: data!)
         icdList = csv(data: data!)
+        
+        icdSM.getIDCMessages { (icdArray, response, error) in
+            print(icdArray)
+        }
     }
     
     func readDataFromCSV(fileName:String, fileType: String)-> String!{

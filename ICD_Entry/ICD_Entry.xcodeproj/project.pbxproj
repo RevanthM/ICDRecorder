@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17A0BC932170EE7A00B270CD /* ICDServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A0BC922170EE7A00B270CD /* ICDServiceManager.swift */; };
+		17A0BC952170EEA400B270CD /* ICDMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A0BC942170EEA400B270CD /* ICDMessage.swift */; };
 		17E090E421574DFB00D04128 /* icd10_file.csv in Resources */ = {isa = PBXBuildFile; fileRef = 17E090E321574DFB00D04128 /* icd10_file.csv */; };
 		F2873976214599ED008A7826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2873975214599ED008A7826 /* AppDelegate.swift */; };
 		F2873978214599ED008A7826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2873977214599ED008A7826 /* ViewController.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17A0BC922170EE7A00B270CD /* ICDServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICDServiceManager.swift; sourceTree = "<group>"; };
+		17A0BC942170EEA400B270CD /* ICDMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICDMessage.swift; sourceTree = "<group>"; };
 		17E090E321574DFB00D04128 /* icd10_file.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icd10_file.csv; sourceTree = "<group>"; };
 		F2873972214599ED008A7826 /* ICD_Entry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICD_Entry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2873975214599ED008A7826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +88,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17A0BC902170EDCF00B270CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				17A0BC942170EEA400B270CD /* ICDMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17A0BC912170EDDB00B270CD /* Communication */ = {
+			isa = PBXGroup;
+			children = (
+				17A0BC922170EE7A00B270CD /* ICDServiceManager.swift */,
+			);
+			path = Communication;
+			sourceTree = "<group>";
+		};
 		17E090E221574DE900D04128 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +135,8 @@
 		F2873974214599ED008A7826 /* ICD_Entry */ = {
 			isa = PBXGroup;
 			children = (
+				17A0BC912170EDDB00B270CD /* Communication */,
+				17A0BC902170EDCF00B270CD /* Model */,
 				17E090E221574DE900D04128 /* Resources */,
 				F2A3622021475D9400F08E58 /* SpeechViewController.swift */,
 				F2873975214599ED008A7826 /* AppDelegate.swift */,
@@ -282,7 +304,9 @@
 			files = (
 				F287397E214599ED008A7826 /* ICD_Entry.xcdatamodeld in Sources */,
 				F2873978214599ED008A7826 /* ViewController.swift in Sources */,
+				17A0BC932170EE7A00B270CD /* ICDServiceManager.swift in Sources */,
 				F28739A72145E373008A7826 /* ChronicCell.swift in Sources */,
+				17A0BC952170EEA400B270CD /* ICDMessage.swift in Sources */,
 				F2A3621F21473A9D00F08E58 /* NetworkingData.swift in Sources */,
 				F2A3622121475D9400F08E58 /* SpeechViewController.swift in Sources */,
 				F2873976214599ED008A7826 /* AppDelegate.swift in Sources */,
