@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class NewICDViewController: UIViewController {
 
     @IBOutlet var newTable: UITableView!
     
@@ -16,6 +16,8 @@ class ViewController: UIViewController {
     let icdSM = ICDServiceManager()
     
     var icdList = [[String]]()
+    
+    let appDelegate = UIApplication.shared.delegate as! AppDelegate
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,7 +30,8 @@ class ViewController: UIViewController {
         data = cleanRows(file: data!)
         icdList = csv(data: data!)
         
-        icdSM.getIDCMessages { (icdArray, response, error) in
+        icdSM.getIDCMessages { [weak weakSelf = self] (icdArray, response, error) in
+            weakSelf?.appDelegate.icdMessageArray = icdArray
             print(icdArray)
         }
     }
@@ -94,7 +97,7 @@ class ViewController: UIViewController {
     }
 }
 
-extension ViewController: UITableViewDelegate, UITableViewDataSource{
+extension NewICDViewController: UITableViewDelegate, UITableViewDataSource{
     public func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return(icdList.count)
     }

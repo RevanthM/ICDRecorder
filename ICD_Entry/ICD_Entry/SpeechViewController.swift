@@ -20,6 +20,11 @@ class SpeechViewController: UIViewController {
         super.viewDidLoad()
 
         textBox.delegate = self
+        textBox.becomeFirstResponder()
+        
+        textBox.layer.cornerRadius = 5
+        textBox.layer.borderColor = UIColor.lightGray.cgColor
+        textBox.layer.borderWidth = 0.5
     }
 
     override func didReceiveMemoryWarning() {

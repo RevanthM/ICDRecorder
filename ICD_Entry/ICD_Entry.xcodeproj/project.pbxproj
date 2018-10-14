@@ -9,9 +9,10 @@
 /* Begin PBXBuildFile section */
 		17A0BC932170EE7A00B270CD /* ICDServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A0BC922170EE7A00B270CD /* ICDServiceManager.swift */; };
 		17A0BC952170EEA400B270CD /* ICDMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A0BC942170EEA400B270CD /* ICDMessage.swift */; };
+		17A2322B2173AB5D00A3213E /* OldICDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A2322A2173AB5D00A3213E /* OldICDViewController.swift */; };
 		17E090E421574DFB00D04128 /* icd10_file.csv in Resources */ = {isa = PBXBuildFile; fileRef = 17E090E321574DFB00D04128 /* icd10_file.csv */; };
 		F2873976214599ED008A7826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2873975214599ED008A7826 /* AppDelegate.swift */; };
-		F2873978214599ED008A7826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2873977214599ED008A7826 /* ViewController.swift */; };
+		F2873978214599ED008A7826 /* NewICDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2873977214599ED008A7826 /* NewICDViewController.swift */; };
 		F287397B214599ED008A7826 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2873979214599ED008A7826 /* Main.storyboard */; };
 		F287397E214599ED008A7826 /* ICD_Entry.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F287397C214599ED008A7826 /* ICD_Entry.xcdatamodeld */; };
 		F2873980214599EE008A7826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F287397F214599EE008A7826 /* Assets.xcassets */; };
@@ -43,10 +44,11 @@
 /* Begin PBXFileReference section */
 		17A0BC922170EE7A00B270CD /* ICDServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICDServiceManager.swift; sourceTree = "<group>"; };
 		17A0BC942170EEA400B270CD /* ICDMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICDMessage.swift; sourceTree = "<group>"; };
+		17A2322A2173AB5D00A3213E /* OldICDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OldICDViewController.swift; sourceTree = "<group>"; };
 		17E090E321574DFB00D04128 /* icd10_file.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = icd10_file.csv; sourceTree = "<group>"; };
 		F2873972214599ED008A7826 /* ICD_Entry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICD_Entry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2873975214599ED008A7826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F2873977214599ED008A7826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2873977214599ED008A7826 /* NewICDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewICDViewController.swift; sourceTree = "<group>"; };
 		F287397A214599ED008A7826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F287397D214599ED008A7826 /* ICD_Entry.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ICD_Entry.xcdatamodel; sourceTree = "<group>"; };
 		F287397F214599EE008A7826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -140,7 +142,8 @@
 				17E090E221574DE900D04128 /* Resources */,
 				F2A3622021475D9400F08E58 /* SpeechViewController.swift */,
 				F2873975214599ED008A7826 /* AppDelegate.swift */,
-				F2873977214599ED008A7826 /* ViewController.swift */,
+				F2873977214599ED008A7826 /* NewICDViewController.swift */,
+				17A2322A2173AB5D00A3213E /* OldICDViewController.swift */,
 				F28739A62145E373008A7826 /* ChronicCell.swift */,
 				F2A3621E21473A9D00F08E58 /* NetworkingData.swift */,
 				F2873979214599ED008A7826 /* Main.storyboard */,
@@ -303,8 +306,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F287397E214599ED008A7826 /* ICD_Entry.xcdatamodeld in Sources */,
-				F2873978214599ED008A7826 /* ViewController.swift in Sources */,
+				F2873978214599ED008A7826 /* NewICDViewController.swift in Sources */,
 				17A0BC932170EE7A00B270CD /* ICDServiceManager.swift in Sources */,
+				17A2322B2173AB5D00A3213E /* OldICDViewController.swift in Sources */,
 				F28739A72145E373008A7826 /* ChronicCell.swift in Sources */,
 				17A0BC952170EEA400B270CD /* ICDMessage.swift in Sources */,
 				F2A3621F21473A9D00F08E58 /* NetworkingData.swift in Sources */,
